@@ -6,6 +6,7 @@ services:
     privileged: true
     ports:
       - "4723:4723"
+      - "3234:3234"
     volumes:
       - /dev/bus/usb:/dev/bus/usb
       - ~/.android:/root/.android
